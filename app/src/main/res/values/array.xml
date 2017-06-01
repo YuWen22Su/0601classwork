@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="fruit">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Rose</item>
+        <item>Lemon</item>
+        <item>Pineapple</item>
+    </array>
+
+</resources>

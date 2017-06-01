@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         final Spinner spinner = (Spinner)findViewById(R.id.spinner);
 
         ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,fruit);
-        ArrayAdapter adapter1 =new ArrayAdapter(this,android.R.layout.simple_spinner_item,fruit);
+        ArrayAdapter adapter1 =new ArrayAdapter(this,android.R.layout.simple_dropdown_item_1line,fruit);
         //list.setAdapter(adapter);
         spinner.setAdapter(adapter);
 
