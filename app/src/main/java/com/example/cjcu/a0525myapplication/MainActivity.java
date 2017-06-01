@@ -22,9 +22,10 @@ public class MainActivity extends AppCompatActivity {
         final Spinner spinner = (Spinner)findViewById(R.id.spinner);
 
         ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,fruit);
-        ArrayAdapter adapter1 =new ArrayAdapter(this,android.R.layout.simple_dropdown_item_1line,fruit);
+        ArrayAdapter adapter1 = new ArrayAdapter(this,android.R.layout.simple_dropdown_item_1line,fruit);
+        ArrayAdapter adapter2 = ArrayAdapter.createFromResource(this,R.array.fruit,R.layout.support_simple_spinner_dropdown_item);
         //list.setAdapter(adapter);
-        spinner.setAdapter(adapter);
+        spinner.setAdapter(adapter2);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
